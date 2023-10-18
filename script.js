@@ -1,13 +1,13 @@
-const gimalStart = "2023-10-18T10:15:00";
+const gimalStart = "2023-12-11T8:50:00";
 
 function countdown() {
 	const a = new Date(gimalStart);
 	const b = new Date();
 	if (b >= a) {
-		document.getElementsByClassName("title")[0].innerHTML = "⭐️경 중간고사끝 축⭐️";
+		document.getElementsByClassName("title")[0].innerHTML = "⭐️경 중간고사si작 축⭐️";
 	} else {
 		const total = (a - b) / 1000;
-		document.getElementById("seconds").innerHTML = `<b style="color: red">Rmx까지</b> ${getFloatFixed(total, 2)} 초 남음`;
+		document.getElementById("seconds").innerHTML = `<b style="color: red">Si험까지</b> ${getFloatFixed(total, 2)} 초 남음`;
 	}
 }
 
