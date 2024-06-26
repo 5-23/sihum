@@ -1,4 +1,4 @@
-const gimalStart = "2023-12-11T08:50:00";
+const gimalStart = "2024-07-03T08:50:00";
 
 function countdown() {
 	const a = new Date(gimalStart);
